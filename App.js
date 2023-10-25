@@ -3,7 +3,7 @@ After studying JavaScript and React
 this was my solution for a simple List implementation.
 */
 
-import './buttons.css'
+import './buttons.css' // Button layout: https://alvarotrigo.com/blog/css-round-button
 import React, { useState, useEffect } from 'react';  //   https://www.youtube.com/watch?v=4pO-HcG2igk&ab_channel=NetNinja
 
 
