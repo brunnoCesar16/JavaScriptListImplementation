@@ -1,5 +1,5 @@
 /*
-Alright, after studying JavaScript and React
+After studying JavaScript and React
 this was my solution for a simple List implementation.
 */
 
