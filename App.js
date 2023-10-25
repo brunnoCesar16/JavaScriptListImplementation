@@ -23,15 +23,15 @@ function ListApp() {
   useEffect(()=> {
     localStorage.setItem('LIST_ELEMENTS', JSON.stringify(items));
   }, [items])
+  
   // UseEffect for keeping page in the darkmode or not whenever page is reloaded
   useEffect(()=> {
     localStorage.setItem('IS_DARK', JSON.stringify(isDarkMode));
   }, [isDarkMode])
-
+  
   // UseEffect for checkboxes]
   useEffect(()=>{
     localStorage.setItem('IS_CHECKED', JSON.stringify(isChecked));
-
   }, [isChecked])
 
   // Add item to the list
