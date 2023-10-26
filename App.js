@@ -61,14 +61,14 @@ function ListApp() {
 
   return (
     <div className='parent' style={{ backgroundColor: isDarkMode ? 'black' : 'white', color: isDarkMode ? 'white' : 'black', height: '100vh', width: '100%', position: 'static' }}>
-      <h1><center>To-do list</center></h1>
+      <h1><center>Grocery List</center></h1>
       <div>
         <center>
           <input
             type="text"
             id='myText'
             style={{ marginBottom: '10px' }}
-            placeholder="       Enter to-do list item"
+            placeholder="               Enter item"
             value={newItem}
             onChange={(event) => setNewItem(event.target.value)}
           />
